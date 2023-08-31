@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+
+}
+.container{
+    border: 1px solid #000;
+    background-color: rgb(228, 236, 236);
+    overflow:auto;   
+    height: 700px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+.block{
+    margin: 10px;
+    margin-left: 5px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    display: inline-block;
+    height: 270px;
+    width: 370px;
+    background-color: burlywood;
+    box-shadow: inset 0px 0px 10px #454545;
+}
+.content{
+    padding: 20px 50px 30px 22px;
+    font-size:larger;
+}
